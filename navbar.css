@@ -1,0 +1,183 @@
+.myNav{
+    position: fixed;
+    width: 1366px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    
+    background: #ffffff;
+
+}
+ul {
+    /* background: #110303; */
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+
+    
+    color: #ec2323;
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    /* background-color: #4c9e9e; */
+border-radius: 5px;
+transition: 0.3s ease;
+  }
+
+.home {
+    position: absolute;
+width: 65px;
+height: 58px;
+left: 690px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1C1C;
+    
+    
+}
+.contact{
+    position: absolute;
+width: 202px;
+height: 58px;
+left: 970px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1C1C;
+}
+.about{
+    position: absolute;
+width: 202px;
+height: 58px;
+left: 750px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1C1C;
+
+}
+.faq{
+    position: absolute;
+width: 202px;
+height: 58px;
+left: 860px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #1E1C1C;
+
+}
+.login{
+    position: absolute;
+    width: 202px;
+    height: 58px;
+    left: 1100px;
+    top: 10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #1E1C1C;
+    
+    }
+h1{
+    position: absolute;
+width: 89px;
+height: 51px;
+left: 442px;
+top: 28px;
+
+}
+.logo{
+    position: absolute;
+    width: 89px;
+    height: 51px;
+    left: 42px;
+    top: 28px;
+}
+.myLogo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 42px;
+    top: -5px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+      &.outline {
+          position: fixed;
+          left: 1170px;
+          top: 12px;
+          z-index: 3;
+          background: transparent;
+            color: #1E1C1C;
+          font-family: 'Poppins';
+          /* font-weight: bold; */
+
+          font-size: 18px;
+          border-color: #1E1C1C;
+          border-style: solid;
+          border-width: 1.1;
+          border-radius: 18px;
+          padding: 8px 20px;
+          transition: all 0.2s linear;
+          /* a {
+              text-decoration: none;
+          } */
+      }
+      &.outline:hover {
+        color: white;
+        background: #1E1C1C;
+        border-color: white;
+        transition: all 0.2s linear;
+    }
+      &.white-purple {
+        font-weight: 700;
+        color: #664e96;
+        border-color: white;
+        background: white;
+    }
+    }
+    

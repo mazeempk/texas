@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*  */
+body{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+body.dark{
+    --primary-color: #3A3B3C;
+    --panel-color: #242526;
+    --text-color: #CCC;
+    --black-light-color: #CCC;
+    --border-color: #4D4C4C;
+    --toggle-color: #FFF;
+    --box1-color: #3A3B3C;
+    --box2-color: #3A3B3C;
+    --box3-color: #3A3B3C;
+    --title-icon-color: #CCC;
+}
+/* === Custom Scroll Bar CSS === */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0b3cc1;
+}
+body.dark::-webkit-scrollbar-thumb:hover,
+body.dark .activity-data::-webkit-scrollbar-thumb:hover{
+    background: #3A3B3C;
+}
+
+.container{
+    position: absolute;
+    position: fixed;
+    width: 240.14px;
+    height: 712.98px;
+    left: 0px;
+    top: 0px;
+
+    background: #F5F7F9;
+    border-radius: 23.4789px 0px 0px 23.4789px;
+}
+
+.container .logo img{
+    width: 120px;
+    height: 120px;
+    margin-left: 28px;
+    margin-top: -30px;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: var(--panel-color);
+    border-right: 1px solid var(--border-color);
+    border-top-right-radius: 100px;
+    transition: var(--tran-05);
+}
+nav ul .dashboard{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0b3cc1;
+    top: 200px;
+    margin-top: 120px;
+    margin-left: 5px;
+    font-weight: 500px;
+    color: #FFF;
+    background-color: #c6c6d1;
+    width: 200px;
+    border-radius: 20px;
+    /* left: 4px; */
+}
+
+li a{
+    font-size: 15px;
+    color: #161618;
+    font-weight: 500;
+    font-family: "Poppins";
+
+
+}
+
+nav ul .addStudents{
+    font-size: 20px;
+    top: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+nav ul .courses{
+    font-size: 15px;
+    top: 10px;
+    margin-left: 70px;
+}
+nav ul .student{
+    font-size: 20px;
+    top: 200px;
+    margin-left: 70px;
+}
+
+nav ul .addTeacher{
+    font-size: 20px;
+    top: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+nav ul .teacher{
+    font-size: 20px;
+    top: 200px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.myIcon{
+    color: #ffffff;
+    position: absolute;
+    top: 145px;
+    left: 40px;
+}
+.icon2{
+    color: #29292c;
+    position: absolute;
+    top: 198px;
+    left: 42px;
+}
+.icon3{
+    color: #29292c;
+    position: absolute;
+    top: 256px;
+    left: 42px;
+}
+.icon4{
+    color: #29292c;
+    position: absolute;
+    top: 304px;
+    left: 45px;
+}
+.icon5{
+    color: #29292c;
+    position: absolute;
+    top: 365px;
+    left: 45px;
+}
+
+.icon6{
+    color: #29292c;
+    position: absolute;
+    top: 425px;
+    left: 45px;
+}
+.container nav ul li .dashboard{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .container p{
+    position:absolute;
+    color: #c9b500;
+    font-size: 15px;
+    top: 120px;
+    left: 120px;
+} */
+.icon7{
+    color: #29292c;
+    position: absolute;
+    top: 256px;
+    left: 142px;
+}
+nav ul .logout{
+    position: absolute;
+    font-size: 20px;
+    top: 550px;
+    margin-left: 70px;
+}
+
+.ic{
+    color: #29292c;
+    position: absolute;
+    top: 256px;
+    left: 142px;
+}
+
+.mybutton{
+    width: 100px;
+    height: 40px;
+    background-color: #b5bdd4;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-left: 55px;
+
+}
+.searchbar input{
+    position: relative;
+    left: 700px;
+    top: 40px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    color: #161618;
+    background-color: #e1e1e9;
+}
+
+.searchIcon{
+    position: relative;
+    text-align:center;
+    left: 900px;
+    top: 10px;
+
+
+    color: #65656b;
+
+}
